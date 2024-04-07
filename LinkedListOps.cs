@@ -184,28 +184,27 @@ namespace LinkedListOps
     
   }
   
-  
-	public class Program
+
+public class Program
+{
+	public static void Main(string[] args)
 	{
-		public static void Main(string[] args)
-		{
-		  
-		  LinkedList ll= new LinkedList();
-		    ll.insertAtHead(7);
-		    ll.insertAtHead(9);
-		    ll.insertAtHead(10);
-		    ll.insertAtTail(12);
-		    ll.insertAtTail(15);
-		    ll.insertAtPosition(20,3);
-		  //ll.insertAtPosition(21,3);
-		  //ll.insertAtPosition(23,3);
-		  //ll.insertAtPosition(23,7);
-		    //ll.deleteTail();
-		    //ll.deleteHead();
-		    //ll.deleteAtPosition(4);
-		    ll.PrintData();
-		  
-			Console.WriteLine("Hello, World!");
-		}
+	  
+		LinkedList ll= new LinkedList();
+		ll.insertAtHead(7);
+		ll.insertAtHead(9);
+		ll.insertAtHead(10);
+		ll.insertAtTail(12);
+		ll.insertAtTail(15);
+		ll.insertAtPosition(20,3);
+		//ll.insertAtPosition(21,3);
+		//ll.insertAtPosition(23,3);
+		//ll.insertAtPosition(23,7);
+		//ll.deleteTail();
+		//ll.deleteHead();
+		//ll.deleteAtPosition(4);
+		ll.PrintData();
+	  
 	}
+}
 }
